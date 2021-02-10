@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaewon's portfolio</title>
+    <meta name="desciption" content="portfolio">
+    <meta name="autuor" content="Chaewon">
+    <script src="https://kit.fontawesome.com/3cc09cf712.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="imgs/star.png">
+<link rel="stylesheet" href="style.css">
+<script src="main.js" defer></script>
+</head>
+<body>
+    <!-- nav bar-->
+<nav id="navbar">
+    <div class="navbar_logo">
+        <i class="far fa-snowflake"></i>
+        <a href="#">Chaewon</a>
+    </div>
+    <div class="navbar_menu">
+<ul class="navbar_menu open">
+    <li class="navbar_menu_items active" data-link="#home">Home</li>
+    <li class="navbar_menu_items" data-link="#about">About</li>
+    <li class="navbar_menu_items" data-link="#skills">Skills</li>
+    <li class="navbar_menu_items" data-link="#work">My Work</li>
+    <li class="navbar_menu_items" data-link="#testimonials">Testimonial</li>
+    <li class="navbar_menu_items" data-link="#contact">Contact</li>
+</ul>
+    </div>
+
+    <!--Toggle-->
+    <button class="nav_toggle-btn">
+        <i class="fas fa-bars"></i>
+    </button>
+</nav>
+
+<!-- home -->
+<section id="home">
+    <div class="home__container">
+        <img src="imgs/cw.jpg" alt="Chaewon's profile photo" class="home_avatar"/>
+    <h1 class="home_title">Hello, <br> I am Creator.</h1>
+    <h2 class="home_description">
+ Japanese Korean Interpretor & Android Developer 
+    </h2>
+    <button class="home_contact">Contact Me</button>
+    </div>
+</section>
+
+    <!-- about -->
+    <section id="about" class="section section_container">
+        <h1>About Me</h1>
+        <p>IT개발을 이해하는 통번역사! <br>
+            10년 이상의 한일 통역 번역 업무 경험이 있으며, 일본계 금융회사에서 9년간 근무했습니다.<br>
+            안드로이드 어플 개발자가 되고 싶어 개발 공부를 하였으며 지금은 안드로이드 어플 개발도 하고 있습니다. <br>
+            IT개발에 대한 이해도가 높아 그만큼 자연스럽고 양질의 통번역이 가능하다고 생각합니다.</p>
+       <div class="about_majors">
+           <div class="major">
+               <div class="major_icon">
+                <i class="fas fa-american-sign-language-interpreting"></i>
+               </div>
+               <h2 class="major_title">Japanese Interpretor</h2>
+               <div class="major_description">
+                   한일 동시통역, 번역
+               </div>
+           </div>
+
+           <div class="major">
+            <div class="major_icon">
+                <i class="fab fa-android"></i>
+            </div>
+            <h2 class="major_title">Android Developer</h2>
+            <div class="major_description">
+                Android App 'Hocance'
+            </div>
+        </div>
+
+        <div class="major">
+            <div class="major_icon">
+                <i class="fab fa-youtube"></i>
+            </div>
+            <h2 class="major_title">Creator</h2>
+            <div class="major_description">
+                YouTube '친절한 채원씨'
+            </div>
+        </div>
+
+       </div>     
+
+       <div class="about_jobs">
+        <div class="job">
+            <i class="fas fa-piggy-bank"></i>
+            <div class="job_description">
+                <p class="job_name">Interpretor</p>
+                <p class="job_period">2014~2020</p>
+            </div>
+        </div>
+        
+        <div class="job">
+            <i class="fas fa-pen-fancy"></i>
+            <div class="job_description">
+                <p class="job_name">freelance</p>
+                <p class="job_period">2009~2013</p>
+            </div>
+        </div>
+        
+    </div>
+
+    </section>
+
+    <!-- skills -->
+    <section id="skills" class="section">
+        <h1>Skills</h1>
+        <h2>Skills&Attributes</h2>
+        <p>
+            저는 10년 이상의 통번역 경험이 있습니다. <br>
+            부가가치가 높은 분야에서 일하고 싶어서 코딩공부를 하였고 안드로이드 개발도 하고 있습니다. <br>
+            계획해서 일하는 것을 좋아하며 팀워크로 일하는 것도, 개인적으로 일할 수도 있습니다.
+        </p>
+        <div class="skillset">
+            <div class="skillset_left">
+                <h3 class="skillset_title">Skills</h3>
+                <div class="skill">
+                    <div class="skill_description">
+                        <span>Translate</span>
+                        <span>99%</span>
+                    </div>
+                    <div class="skill_bar">
+                        <div class="skill_value" style="width: 99%;"></div>
+                    </div>
+                </div>
+               
+                <div class="skill">
+                    <div class="skill_description">
+                        <span>Interpret</span>
+                        <span>99%</span>
+                    </div>
+                    <div class="skill_bar">
+                        <div class="skill_value" style="width: 99%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <div class="skill_description">
+                        <span>Developer</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="skill_bar">
+                        <div class="skill_value" style="width: 50%;"></div>
+                    </div>
+                </div>
+               
+                <div class="skill">
+                    <div class="skill_description">
+                        <span>Creator</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill_bar">
+                        <div class="skill_value" style="width: 80%;"></div>
+                    </div>
+                </div>
+                
+
+            </div>
+            <div class="skillset_right">
+                <div class="tools">
+                    <h3 class="skillset_title">Tools</h3>
+                    <ul class="tools_list">
+                        <li><span>Android Studio</span></li>
+                        <li><span>Visual Studio Code</span></li>
+                        <li><span>Vllo</span></li>
+                        <li><span>Word</span></li>
+                        
+                    </ul>
+                </div>
+                <div class="etc">
+                    <h3 class="skillset_title">Etc</h3>
+                    <ul class="etc_list">
+                        <li><span>Front-end</span></li>
+                        <li><span>Java</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- work -->
+    <section id="work" class="section">
+        <div class="section_container">
+            <h1>My Work</h1>
+            <h3>Projects</h3>
+            <div class="work_categories">
+                <button class="category_btn selected" data-filter="*">All <span class="category_count">8</span></button>
+                <button class="category_btn" data-filter="android_apps">Android Apps<span class="category_count">1</span></button>
+                <button class="category_btn" data-filter="blog">Blog<span class="category_count">8</span></button>
+                <button class="category_btn" data-filter="youtube">YouTube<span class="category_count">27</span></button>
+            </div>
+            <div class="work_projects">
+                <a href="https://www.youtube.com/channel/UCquqoDfXSCtJK-KRFw-8w3w?view_as=subscriber" class="project" target="blank" data-type="youtube">
+                <img src="imgs/img_cw.png" alt="YouTube" class="project_img">
+                <div class="project_description">
+                    <h3>YouTube Site</h3>
+                    <span>Japanese Lectures </span>
+                </div>
+                </a>
+    
+                <a href="https://play.google.com/store/apps/details?id=com.hocance.www" class="project" target="blank" data-type="android_apps">
+                    <img class="project_img" src="imgs/hocance.jpg" alt="Android apps" > 
+                    <div class="project_description">
+                        <h3>Hocance</h3>
+                        <span>Introduce hotel packages </span>
+                    </div>
+                    </a>
+    
+                    <a href="https://chaewonhocance-20141101.blogspot.com/" class="project" target="blank" data-type="blog">
+                        <img class="project_img" src="imgs/blog01.png" alt="blog" >
+                        <div class="project_description">
+                            <h3>Hocance</h3>
+                            <span>blog that introduce hotel packages </span>
+                        </div>
+                        </a>
+            </div>
+        </div>
+       
+    </section>
+
+    <!-- 추천서 -->
+    <section id="testimonials" class="section">
+        <div class="section_container">
+            <h1>Testimonials</h1>
+            <h3>See what they say about me</h3>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <img src="imgs/woman01.png" alt="people" class="testimonial_avatar">
+                    <div class="testimonial_speech">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum at deleniti, repellat modi repellendus atque, fugit incidunt tempora doloribus sed ea nemo libero? Rerum expedita, eaque quo debitis consequatur hic.
+                        </p>
+                        <p class="name"><a href="#">SeungHee</a> Casino</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonials">
+                <div class="testimonial">
+                    
+                    <div class="testimonial_speech">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum at deleniti, repellat modi repellendus atque, fugit incidunt tempora doloribus sed ea nemo libero? Rerum expedita, eaque quo debitis consequatur hic.
+                        </p>
+                        <p class="name"><a href="#">SooBeen</a> Fanancial Company</p>
+                        
+                    </div>
+                    <img src="imgs/woman02.png" alt="people" class="testimonial_avatar">
+                </div>
+            </div>
+        </div>
+       
+        
+    </section>
+    <!-- contact -->
+    <section id="contact" class="section">
+        <h1 class="contact_title">Let's Talk</h1>
+        <h2 class="contact_email">chae0831@gmail.com</h2>
+        <div class="contact_links">
+            <a href="https://www.linkedin.com/in/chaewon-y-1423a0151/">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/chae0831">
+                <i class="fab fa-github-square"></i>
+            </a>
+        </div>
+        <p class="contact_rights">2021 Dreams come true - All rights reserved</p>
+    </section>
+
+    <!-- arrow up -->
+    <button class="arrow-up">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+</body>
+</html>
